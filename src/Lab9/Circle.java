@@ -4,8 +4,13 @@ package Lab9;
  * Created by Fer on 9/7/16.
  */
 public class Circle {
-    public Circle(double radius){
 
+    private double radius;
+    private static int count;
+
+    public Circle(double r){
+        this.radius = r;
+        this.count++;
     }
 
     public double getCircumference(){
