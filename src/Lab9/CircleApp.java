@@ -8,11 +8,11 @@ import java.util.Scanner;
 public class CircleApp {
 
     public static void main(String[] args){
-        Circle cr = new Circle;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Give me the radius: ");
-        int radius = sc.nextInt();
-        cr.getArea(radius);
+//        Circle cr = new Circle();
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Give me the radius: ");
+//        int radius = sc.nextInt();
+//        cr.getArea(radius);
 
     }
 }
